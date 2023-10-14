@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #judul p {
+        font-size: 35px;
+        text-align: center;
+        background-color: wheat;
+        color: rgb(0, 0, 0);
+        height: 70px;
+    }
+
+    body {
+        background-color: beige;
+    }
+
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 15px;
+        width: 70%;
+        padding-left: 15px;
+    }
+
+    .stepbystep {
+        margin: 18px;
+    }
+
+    .media img {
+        display: flex;
+        margin-top: 5px;
+        margin-left: 500px;
+    }
+
+    .video iframe {
+        width: 668px;
+        height: 390px;
+        margin: 15px;
+    }
+
+    .video p {
+        margin-left: 10px;
+    }
+
+    .form form {
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 100%;
+    }
+</style>
+<body>
+    <div id="judul">
+     <p> RESEP MEMBUAT KERAK TELOR</p>
+    </div>
+    <div class="media">
+       <img src="images/kerak telor.jpg" 
+        alt="Kerak Telor">
+        <p> Kerak Telor itu apa sih ? </p>
+        <p> Kerak Telor adalah salah satu makanan khas betawi yang rasanya gurih, dan agak sedikit manis. Kerak telor ini sudah ada pada tahun 1920-an yang saat itu masih zaman kolonial Belanda, pada masa itu masyarakat Belanda yang tinggal di daerah Menteng terbiasa mengkonsumsi omelette mie dan ingin menggantinya dengan makanan yang lebih sehat. Kemudian, masyarakat Betawi berinisiatif untuk mengganti mie menjadi beras ketan putih yang dicampur dengan udang kering (ebi), telur ayam atau bebek, kelapa (serundeng). </p>
+        <p> Jika kalian penasaran dan ingin mencicipi rasanya, silahkan simak resep dibawah ini :</p>
+        
+        <br> <p><b> Bahan :</b></p>
+    </div>
+
+    <!--membuat table-->
+    <table>
+        <tr>
+            <th>Serundeng</th>
+            <th>Kerak Telor</th>
+        </tr>
+    
+        <tr>
+            <td>250gr kelapa parut</td> 
+            <td>2sdm beras ketan putih yang sudah direndam</td>
+        </tr>
+        <tr>
+            <td>2 siung bawang merah</td>
+            <td>2 sdm serundeng</td>
+        </tr>
+        <tr>
+            <td>2 siung bawang putih</td>
+            <td>1 butir telur ayam atau bebek (optional)</td>
+        </tr>
+        <tr>
+            <td>1 ruas kunyit</td>
+        </tr>
+        <tr>
+            <td>1 buah kemiri</td>
+        </tr>
+        <tr>
+            <td>1 batang serai</td>
+        </tr>
+        <tr>
+            <td>2 buah cabe merah keriting</td>
+        </tr>
+        <tr>
+            <td>1/4 sdt ketumbar bubuk</td>
+        </tr>
+        <tr>
+            <td>1 lembar daun salam</td>
+        </tr>
+        <tr>
+            <td>1 lembar daun jeruk</td>
+        </tr>
+    </table>
+   
+    <!--membuat list-->
+    <div class="stepbystep">
+        <p><b>Cara Membuat Kerak Telor :</b></p>
+        <p>Step 1 (Membuat Serundeng)</p>
+        <ol>
+            <li>Haluskan bawang putih, bawang merah, kunyit, kemiri, serai, cabe merah keriting</li>
+            <li>Masak bumbu yang sudah dihaluskan tadi</li>
+            <li>Kemudian masukkan daun salam dan daun jeruk, lalu aduk</li>
+            <li>Tambahkan garam secukupnya, dan masukkan ketumbar bubuk, kaldu jamur (secukupnya)</li>
+            <li>Lalu masukkan kelapa parut</li>
+            <li>Aduk sampai bumbu dan kelapanya tercampur dengan rata</li>
+        </ol>
+
+        <p>Step 2 (Membuat Kerak Telor)</p>
+        <ol>
+            <li>Siapkan telor bebek</li>
+            <li>Cuci beras ketan sampai bersih, dan lalu rendam sampai kurang lebih 30-60 menit</li>
+            <li>Kemudian masak beras ketan tadi sampai mendidih</li>
+            <li>Setelah mendidih, masukkan serundeng, telur bebek</li>
+            <li>Tambahkan garam, kaldu jamur, dan lada</li>
+            <li>Lalu aduk sampai semuanya tercampur rata</li>
+            <li>Kemudian bentuk adonan tadi menjadi bulat, seperti ciri khas pada kerak telor</li>
+            <li>Bolak balik kerak telor sampai matang</li>
+            <li>Sajikan kerak telor, tambahkan sisa serundeng tadi, dan bisa juga ditambahkan bawang goreng (optional)</li>
+        </ol>
+    </div>
+
+    <!--cara memasukkan video-->
+    <div class="video">
+        <iframe
+        src="https://www.youtube.com/embed/ehuzabJh9b8" 
+        frameborder="0"
+        allowfullscreen=""
+        >
+        </iframe>
+
+        <p>Berikut Tutorial Video Lengkapnya :</p>
+        <a href="https://www.youtube.com/watch?v=ehuzabJh9b8"
+            >Cara Membuat Kerak Telor</a>
+    </div>
+<br>
+    <!--form-->
+    <div id="form">
+        <form>
+            <label for="fname"> Nama :</label> <br/>
+            <input type="text" name="fname" id="fname" /><br /><br />
+            <label for="lname"> Kritik dan Saran :</label> <br />
+            <input type="type" name="lname" id="lname" /><br /><br />
+            <input type="submit" /><br /><br />
+
+            <label for="pertanyaan">Apakah Tutorial Tersebut Bermanfaat ?</label><br /> <br />
+            <input type="radio" name="pertanyaan" value="Ya"> Ya
+            <input type="radio" name="pertanyaan" value="Tidak"> Tidak <br>
+            <input type="submit" value="Submit"><br />
+            
+            <br>
+
+            <label for="Rate_Tutorial">Rate Tutorial</label>
+             <select name="Rate_Tutorial">
+                <option value="Lainnya">Lainnya</option>
+              </select> <br>
+
+            <input type="checkbox" name="Rate_Tutorial" value="Sangat Puas"> Sangat Puas
+            <input type="checkbox" name="Rate_Tutorial" value="Puas"> Puas
+            <input type="checkbox" name="Rate_Tutorial" value="Tidak Puas"> Tidak Puas 
+            <input type="checkbox" name="Rate_Tutorial" velue="Sangat Tidak Puas"> Sangat Tidak Puas <br>
+            <input type="submit" value="Submit">
+            
+        </form>
+    </div>
+</body>
+</html>
